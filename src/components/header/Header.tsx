@@ -1,4 +1,4 @@
-import React, { FC } from "react";
+import { FC } from "react";
 import { Link } from "react-router-dom";
 import { FiShoppingCart, FiUser, FiSearch } from "react-icons/fi";
 import { IconContext } from "react-icons";
