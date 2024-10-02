@@ -24,7 +24,7 @@ const SingleProductPage: React.FC = () => {
       .catch((err) => console.error(err));
   }, [id]);
 
-  if (!product) return <div>Загрузка...</div>; // Показать загрузку, если товар еще не загружен
+  if (!product) return <div>Загрузка...</div>;
 
   return (
     <div className="container mx-auto p-4">
